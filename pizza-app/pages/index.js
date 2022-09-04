@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Layout from '../components/Layout'
 
 
 export default function Home() {
   return (
+  <Layout>
     <div>
       <Head>
         <title>11</title>
@@ -16,5 +18,6 @@ export default function Home() {
 
 
     </div>
+  </Layout> 
   )
 }
