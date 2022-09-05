@@ -21,7 +21,8 @@ export default function Header() {
 
         <div className={styles.rightSide}>
             <div className={styles.cart}>
-                <TbPizza/>
+                <TbPizza size={45}/>
+                <div className={styles.badge}>1</div>
             </div>
         </div>
         </div>
