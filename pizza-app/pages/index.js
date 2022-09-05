@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import styles from '../styles/Home.module.css'
+import Services from '../components/Services'
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
 
       <main>
         <Hero/>
+        <Services/>
       </main>
 
 
