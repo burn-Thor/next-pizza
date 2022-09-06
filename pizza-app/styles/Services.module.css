@@ -1,0 +1,17 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.heading>:nth-child(1){
+    color: var(--themeRed);
+    font-size: 1.5rem;
+}
+.heading>:nth-child(2){
+    font-size: 2rem;
+}
+.heading>:nth-child(3){
+    font-size: 2rem;
+}
